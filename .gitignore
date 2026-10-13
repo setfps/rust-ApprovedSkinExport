@@ -1,0 +1,23 @@
+# Build output
+bin/
+obj/
+
+# IDE and user settings
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+# Generated verification artifacts
+Verification/VerifyCatalog.exe
+Verification/VerifyCatalog.pdb
+Verification/output/
+comparison/report.json
+comparison/approved-from-dll.tsv
+comparison/item-name-mapping.tsv
+comparison/
+
+# Temporary files and logs
+*.tmp
+*.log
